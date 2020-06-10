@@ -81,13 +81,13 @@ C = np.zeros((rows, cols, n_velocity, n_velocity, n_actions))
 pi = np.argmax(Q, axis=-1)
 
 if load_prev:
-  with open('Q1.pkl', 'rb') as f:
+  with open('Q.pkl', 'rb') as f:
     Q = pickle.load(f)
 
   with open('C.pkl', 'rb') as f:
     C = pickle.load(f)
 
-  with open('pi2.pkl', 'rb') as f:
+  with open('pi.pkl', 'rb') as f:
     pi = pickle.load(f)
 
 assert pi.shape == (rows, cols, n_velocity, n_velocity)
