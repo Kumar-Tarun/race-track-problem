@@ -5,7 +5,7 @@
 * Q-Learning converges quickly than Monte-Carlo for all state-action pairs.
 * Following are the sample policies found by both the algorithms.
 ### Monte-Carlo
-![](/images/mc.gif)
+![](/images/mc.gif) 
 ### Q-Learning
 ![](/images/ql.gif)
 
